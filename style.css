@@ -1,0 +1,37 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Chakra Petch';
+}
+
+.Container {
+    width           : 100vw;
+    height          : 100vh;
+    display         : grid;
+    place-items     : center;
+    background-color: rgb(211, 211, 211);
+}
+
+.main {
+    display: grid;
+    place-items     : center;
+    height          : 60vh;
+    width           : 70vw;
+    border          : 2px solid #000;
+    background-color: #fff;
+}
+
+.controls {
+    width          : 90%;
+    display        : flex;
+    justify-content: space-around;
+}
+
+#start {
+    width        : 6rem;
+    padding      : .7% 1.4%;
+    border-radius: 25px;
+    border       : 0;
+    box-shadow   : 5px 5px 10px rgb(0, 255, 0);
+}
